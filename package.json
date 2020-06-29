@@ -1,0 +1,30 @@
+{
+  "name": "Nodejs-GB",
+  "version": "1.0.0",
+  "description": "Node js homework at GeekBrains!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergesarapov/Nodejs-GB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergesarapov/Nodejs-GB/issues"
+  },
+  "homepage": "https://github.com/sergesarapov/Nodejs-GB#readme",
+  "dependencies": {
+    "ansi": "^0.3.1"
+  },
+  "devDependencies": {
+    "color-generator": "^0.1.0",
+    "pm2": "^4.4.0",
+    "webpack": "^4.43.0"
+  },
+  "peerDependencies": {}
+}
