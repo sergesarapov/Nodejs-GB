@@ -14,6 +14,10 @@ request("https://yandex.ru/", (err, req, html) => {
         console.log($(".news__item-content").eq(i).text());
       }
     }
+    const date = new Date();
+    const dateArr = [];
+    dateArr.push(date.getDate(), date.getMonth(), date.getFullYear());
+    console.log(dateArr.join("."));
   } else {
     console.log(err);
   }
